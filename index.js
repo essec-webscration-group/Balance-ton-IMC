@@ -11,6 +11,16 @@ app.get('/', function (req, res) {
     res.render("index");
 })
 
+// Route to IMC page
+app.get('/imc', function (req, res) {
+    res.render("imc");
+})
+
+// Route to blog page
+app.get('/blog', function (req, res) {
+    res.render("blog");
+})
+
 // Route to static files
 app.get('/static/:file', (req, res) => res.sendFile(__dirname + "/static/" + req.params.file));
 
