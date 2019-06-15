@@ -5,6 +5,7 @@ const port = 3000;
 const app = express();
 app.engine('hbs', exphbs({ defaultLayout: 'main.hbs' }));
 app.set('view engine', 'hbs');
+app.use(express.urlencoded());
 
 // Main route to index page
 app.get('/', function (req, res) {
@@ -15,6 +16,17 @@ app.get('/', function (req, res) {
 app.get('/imc', function (req, res) {
     res.render("imc");
 })
+
+app.post("/imc", (req, res) => {
+    //console.log(req.body);
+    //process.exit(0);
+    taille = req.body.taille;
+    poids = req.body.poids;
+
+    imc = poids / (taille * taille);
+
+    res.render("package", {imc});
+});
 
 // Route to blog page
 app.get('/blog', function (req, res) {

@@ -1,6 +1,27 @@
 <div class="container">
     <div class="row">
         <h2>Méthode de calcul</h2>
-            <p>IMC = Poids / Taille2</p>
+        <p>IMC = Poids / Taille2</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <form action="/imc" method="POST">
+            <div class="form-group">
+                <div class="col s6">
+                    <label for="poids">Poids</label>
+                    <input type="text" class="form-control" id="poids" name="poids" aria-describedby="nameHelp"
+                        placeholder="Entrez votre poids">
+                </div>
+                <div class="col s6">
+                    <label for="poids">Taille</label>
+                    <input type="text" class="form-control" id="taille" name="taille" aria-describedby="nameHelp"
+                        placeholder="Entrez votre taille">
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
 </div>
