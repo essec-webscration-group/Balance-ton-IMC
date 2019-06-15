@@ -3,11 +3,15 @@ const exphbs = require('express-handlebars');
 const port = 3000;
 
 const app = express();
-//app.engine('hbs', exphbs({ defaultLayout: 'main.hbs' }));
-//app.set('view engine', 'hbs');
+app.engine('hbs', exphbs({ defaultLayout: 'main.hbs' }));
+app.set('view engine', 'hbs');
 
+// Main route to index page
 app.get('/', function (req, res) {
-    res.send('Hello World!')
+    res.render("index");
 })
+
+// Route to static files
+app.get('/static/:file', (req, res) => res.sendFile(__dirname + "/static/" + req.params.file));
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));

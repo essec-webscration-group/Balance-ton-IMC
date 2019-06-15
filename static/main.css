@@ -1,0 +1,33 @@
+body {
+    background-color: #FFF;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #12700e;
+    border-bottom: 1px solid #466995;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+li {
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 230px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #DBE9EE;
+}
