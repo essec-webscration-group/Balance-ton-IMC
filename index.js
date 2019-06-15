@@ -17,6 +17,7 @@ app.get('/imc', function (req, res) {
     res.render("imc");
 })
 
+// Get data from IMC form
 app.post("/imc", (req, res) => {
     //console.log(req.body);
     //process.exit(0);
