@@ -30,22 +30,22 @@ body {
   
 
 .navbarli:hover {
-
     color: #DBE9EE;
 }
 
  h1{
-	position: relative;
+    background-image: url("https://img.lemde.fr/2008/03/02/226/0/2400/1200/1440/720/60/0/ill_1017933_ping.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
 	display: block;
-    padding: 80px 10px 80px 10px;
-	color: #FFF;
+    padding: 140px 10px 140px 10px;
+	color: rgb(255, 255, 255);
 	margin: 0 auto;
-	background: #bc1a30;
     font-size: 25px;
 	text-align: center;
 	font-style: normal;
 	width: 80%;
-	border: 1px solid #bc1a30;
 	border-width: 10px 10px 3px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -53,17 +53,18 @@ body {
 }
 
 h2{
-	position: relative;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/WWjejvIBC-mke_v0fYU_tYbfjX0=/0x0:1440x810/1200x800/filters:focal(723x0:953x230)/cdn.vox-cdn.com/uploads/chorus_image/image/63030116/1819Rug_Mirhashem_v_ASU_1920x1080_D5A_7135_RobEdwards.0.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
 	display: block;
-	padding: 80px 10px 80px 10px;
+    padding: 140px 10px 140px 10px;
 	color: #FFF;
 	margin: 0 auto;
-	background: #1a53bc;
     font-size: 25px;
 	text-align: center;
 	font-style: normal;
 	width: 80%;
-	border: 1px solid #1a53bc;
 	border-width: 10px 10px 3px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -71,23 +72,24 @@ h2{
 }
 
 h3{
-	position: relative;
+    background-image: url("https://www.superprof.fr/blog/file/2018/04/femme-boxe-entrainement.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
 	display: block;
-	padding: 80px 10px 80px 10px;
+    padding: 140px 10px 140px 10px;
 	color: #FFF;
 	margin: 0 auto;
-	background: #10a134;
     font-size: 25px;
 	text-align: center;
 	font-style: normal;
 	width: 80%;
-	border: 1px solid #10a134;
 	border-width: 10px 10px 3px;
     margin-bottom: 10px;
     text-transform: uppercase;
     cursor: pointer
 }
-
+    
 ol {counter-reset: liste;}
 
 .listbarli {
@@ -107,3 +109,5 @@ ol {counter-reset: liste;}
 	font-size: 0.8em;
 	color: white;		
 }
+
+ 
