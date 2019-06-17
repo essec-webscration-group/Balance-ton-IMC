@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Balance ton IMC-Package</title>
+    <link href="Balance ton IMC-Package.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<navbar>        
+    <header>
+        <ul class="navbarul">
+            <li class="navbarli"> Accueil </li>
+            <li class="navbarli"> Calcul IMC </li>
+            <li class="navbarli"> Packages </li>
+            <li class="navbarli"> Blog santé</li>
+            <li class="navbarli"> A propos</li>
+        </ul>
+    </header>
+</navbar>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<body>
+ <h1> <a href="" ></a><!--Mettre le lien pour le formulaire de contact-->  Pack Suivi Partiel </h1>
+    <ol>
+        <li class="listbarli"> Pack pour celles et ceux ayant un IMC équilibré </li>
+        <li class="listbarli"> Suivi léger: amélioration des performances sportives,conseils pour une alimentation plus riche en fer et magnésium </li>
+        <li class="listbarli"> Prix: 10 euros par mois </li>
+    </ol>
+
+<h2>   <a href="" ></a><!--Mettre le lien pour le formulaire de contact--> Pack Suivi Continu </h2>
+    <ol>
+        <li class="listbarli"> Pack pour celles et ceux ayant un IMC légèrement important </li>
+        <li class="listbarli"> Suivi hebdomadaire: bilan chaque semaine des activités effectuées, programme de sport défini à la journée et personnalisé </li>
+        <li class="listbarli"> Prix: 20 euros par mois </li>
+    </ol>
+
+
+<h3>  <a href="" > </a><!--Mettre le lien pour le formulaire de contact--> Pack Suivi Permanent </h3>
+    <ol>
+        <li class="listbarli"> Pack pour celles et ceux ayant un IMC bien au-dessus des normes </li>
+        <li class="listbarli"> Suivi lourd: conseiller en communication quotidienne, nourriture livrée chez vous, inscription forcée à des évènements sportifs </li>
+        <li class="listbarli"> Prix: 40 euros par mois </li>
+    </ol>
+
+</body>
+
+</htlm>
